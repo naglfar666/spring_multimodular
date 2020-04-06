@@ -1,1 +1,1 @@
-# spring_multimodular
+# Spring multiple modules skeleton app
