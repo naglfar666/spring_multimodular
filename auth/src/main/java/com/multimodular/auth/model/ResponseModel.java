@@ -1,4 +1,4 @@
-package com.multimodular.model;
+package com.multimodular.auth.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

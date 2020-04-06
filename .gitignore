@@ -1,2 +1,5 @@
 /.idea/
 /target/
+/email/target/
+/web/target/
+/auth/target/

@@ -10,24 +10,19 @@
     <artifactId>web</artifactId>
 
     <dependencies>
-        <!--SPRING BOOT WEB-->
+
+        <!--EMAIL-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.multimodular</groupId>
+            <artifactId>email</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
-        <!--LOMBOK-->
+        <!--AUTH-->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!--SERVICE-->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>service</artifactId>
+            <groupId>com.multimodular</groupId>
+            <artifactId>auth</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
